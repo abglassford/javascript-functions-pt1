@@ -27,7 +27,7 @@ function discountPercentage(price, discount){
     return('$' + (percent * price).toFixed(2));
   }
 }
-console.log(discountPercentage(304, 99))
+console.log(discountPercentage(245, 74))
 
 // 4. -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
@@ -95,4 +95,5 @@ function oddNumbers(num){
     }
   }
 }
-console.log(oddNumbers(39));
+console.log(oddNumbers(39))
+console.log(oddNumbers(98))
