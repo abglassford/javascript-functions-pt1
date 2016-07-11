@@ -20,12 +20,12 @@ isEqual(3, 5)
 function discountPercentage(a, b){
   var discount = b / 100
   if((discount * a >= a) || (discount * a <= 0)){
-    console.log('Coupon Invalid');
+    return('Coupon Invalid');
     } else {
-    console.log('$' + (discount * a).toFixed(2));
+    return('$' + (discount * a).toFixed(2));
   }
 }
 
-discountPercentage(304, 20)
+discountPercentage(304, 99)
 
 // 4. -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
